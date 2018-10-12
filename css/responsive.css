@@ -1,0 +1,396 @@
+@media (max-width: 575.98px) {
+    .header-area {
+        padding: 20px 15px;
+    }
+    .header-btn {
+        display: none;
+    }
+    .main-menu ul li {
+        display: block;
+        margin-left: 15px;
+    }
+    .main-menu ul li a {
+        padding: 20px 0;
+        color: #ccc;
+    }
+    .main-menu {
+        position: absolute;
+        top: -35px;
+        left: -158%;
+        background: #343433;
+        width: 100%;
+        text-align: center;
+        z-index: 111;
+        transition: all ease-in-out 0.4s;
+        opacity: 0.8;
+    }
+    .single-slide h1 {
+        font-size: 35px;
+    }
+    .single-slide p {
+        padding: 10px;
+    }
+    .feature-wrapper {
+        position: unset;
+        margin-top: 20px;
+    }
+    .border-Top-Bottom::before, .border-Top-Bottom::after{
+        position: absolute;
+        content: "";
+        height: 1px;
+        width: 100%;
+        background: #dee2e6;
+        left: 0;
+        right: 0;
+    }
+    .counter-wrapper {
+        padding: 20px;
+    }
+    .about-text {
+        margin-bottom: 20px;
+    }
+    .about-text h3 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .subscribe input {
+        width: 100%;
+        height: 35px;
+        margin-bottom: 10px;
+    }
+    .subscribe button {
+        margin-left: 0;
+    }
+    .area-title h3 {
+        font-size: 18px;
+    }
+    .pricing-items {
+        width: 80%;
+        margin: 10px auto;
+    }
+    .pricing-items h3 {
+        padding: 15px 0;
+    }
+    .blog-content {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .developer-wrapper {
+        padding: 30px 20px;
+    }
+    .copyright {
+        text-align: center;
+    }
+    .footer-bottom-link {
+        text-align: center;
+    }
+    .footer-bottom-link a {
+        margin-left: 0px;
+        display: block;
+    }
+    .footer-widget {
+        margin-left: 50px;
+    }
+    .footer-widget .blog-content {
+        margin-left: 10px;
+    }
+
+    #hamburgger {
+        width: 80px;
+        height: 50px;
+        text-align: center;
+        margin-left: 115px;
+        cursor: pointer;
+    }
+    #hamburgger span {
+        width: 80%;
+        height: 2px;
+        background: #000;
+        display: block;
+        border-radius: 30px;
+        margin: 10px auto;
+        line-height: 2px;
+        transition: all ease-in-out 0.4s;
+        position: relative;
+        top: 0;
+    }
+    #hamburgger.open span:nth-child(2){
+      width: 0;
+      opacity: 0;
+    }
+    #hamburgger.open span:nth-child(1){
+        transform: rotateZ(-45deg);
+        top: 13px;
+    }
+    #hamburgger.open span:nth-child(3){
+        transform: rotateZ(45deg);
+        top: -13px;
+    }
+    .main-menu.left{left: -58%;}
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .main-menu.left{left: -54%;}
+    #hamburgger {
+        width: 80px;
+        height: 50px;
+        text-align: center;
+        margin-left: 250px;
+        cursor: pointer;
+    }
+    #hamburgger span {
+        width: 60%;
+        height: 2px;
+        background: #000;
+        display: block;
+        border-radius: 30px;
+        margin: 10px auto;
+        line-height: 2px;
+        transition: all ease-in-out 0.4s;
+        position: relative;
+        top: 0;
+    }
+    #hamburgger.open span:nth-child(2){
+        width: 0;
+        opacity: 0;
+      }
+    #hamburgger.open span:nth-child(1){
+        transform: rotateZ(-45deg);
+        top: 13px;
+    }
+    #hamburgger.open span:nth-child(3){
+        transform: rotateZ(45deg);
+        top: -13px;
+    }
+
+    .header-area {
+        padding: 20px 15px;
+    }
+    .header-btn {
+        display: none;
+    }
+    .main-menu ul li {
+        display: block;
+        margin-left: 15px;
+    }
+    .main-menu ul li a {
+        padding: 20px 0;
+        color: #ccc;
+    }
+    .main-menu {
+        position: absolute;
+        top: -35px;
+        left: -138%;
+        background: #343433;
+        width: 80%;
+        text-align: center;
+        transition: all ease-in-out 0.4s;
+        z-index: 111;
+        opacity: 0.8;
+    }
+    .feature-wrapper {
+        position: unset;
+        margin-top: 20px;
+    }
+    .border-Top-Bottom{position: relative;}
+    .border-Top-Bottom::before, .border-Top-Bottom::after{
+        position: absolute;
+        content: "";
+        height: 1px;
+        width: 100%;
+        background: #dee2e6;
+        left: 0;
+        right: 0;
+    }
+    .border-Top-Bottom::before{top: 0; left: 0;}
+    .border-Top-Bottom::after{bottom: 0; right: 0;}
+    .single-slide h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .counter-wrapper {
+        padding: 20px;
+    }
+    .about-text {
+        text-align: center;
+    }
+    .about-text h3 {
+        font-size: 20px;
+        padding-bottom: 10px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .about-text p {
+        margin-bottom: 30px;
+    }
+    .about-img {
+        margin-top: 20px;
+    }
+    .subscribe input {
+        width: 100%;
+        height: 35px;
+        margin-bottom: 10px;
+    }
+    .subscribe button {
+        margin-left: 0;
+    }
+    .pricing-items {
+        width: 60%;
+        margin: 10px auto;
+    }
+    .pricing-items h3 {
+        padding: 15px 0;
+    }
+     .blog-content {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .developer-wrapper {
+        padding: 30px 20px;
+    }
+    .copyright {
+        text-align: center;
+    }
+    .footer-bottom-link {
+        text-align: center;
+    }
+    .footer-bottom-link a {margin-left: 8px;}
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .logo {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .main-menu {
+        flex: 1 1 1;
+    }
+    .main-menu ul li {
+        margin-left: 32px;
+    }
+    .header-btn {
+        margin-left: 0;
+        flex: 1 1 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .header-btn a.btn-round{ margin-top:0 }
+   .slider-icon {
+      margin-bottom: 15px;
+    }
+    .single-slide h1 {
+        font-size: 50px;
+        color: #5a5a5a;
+        margin-bottom: 10px;
+    }
+    .single-slide p {
+        margin-bottom: 20px;
+    }
+    .slider-active .owl-dots {
+        bottom: 50px;
+    }
+    .slider-inner{
+        margin-top: 100px;
+    }
+    .slider-inner a.btn-round{margin-top: 40px}
+    .feature-wrapper {
+        background: #505cfe;
+        padding: 0px 15px;
+        border-radius: 10px;
+        margin-top: 10px;
+        position: unset;
+    }
+
+    .signle-feature i {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+
+    .signle-feature h3 {
+        font-size: 14px;
+        margin-top: 18px;
+    }
+
+    .signle-feature p {
+        margin-top: 15px;
+        margin-bottom: 20px;
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    .about-text p {
+        margin-bottom: 25px;
+    }
+
+    .about-text {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .subscribe input {
+        width: 31%;
+        height: 38px;
+        padding: 0 20px;
+        margin: 5px;
+    }
+
+    form.subscribe {
+        text-align: center;
+    }
+    .subscribe button {
+        margin-top: 20px;
+    }
+    .pricing-items {width: 32%}
+    .pricing-items h3 {   
+        padding: 20px 0;   
+    }
+
+    .pricing-items ul {
+        padding: 15px 0;
+    }
+    .pricing-items ul li {
+        line-height: 20px;
+    }
+
+    .blog-content h3 {
+        font-size: 15px;
+        color: #404040;
+        margin-bottom: 10px;
+    }
+    .blog-content a {
+        margin-top: 10px;
+        font-size: 11px;
+    }
+    .developer-wrapper {
+        padding: 30px 24px;
+    }
+
+    .copyright p {
+        font-size: 13px;
+    }
+    .footer-bottom-link a {
+        padding: 15px;
+        margin-left: 5px;
+        font-size: 13px;
+    }
+    .footer-widget .blog-content {
+        margin-left: 20px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .main-menu ul li {
+        margin-left: 15px;
+    }
+    .single-slide h1 {
+        font-size: 60px;
+    }
+
+    .blog-thumb {
+        width: 100%;
+    }
+
+ }
